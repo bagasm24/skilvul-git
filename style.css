@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #54BAB9;
+    padding: 4px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    background-color: antiquewhite;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.acoount button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 7px 12px;
+}
+
+#hero {
+    display: flex;
+    height: 550px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #54BAB9;
+    color: antiquewhite;
+    padding-bottom: 20px;
+}
+#hero .hero-text{
+    width: 50%;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    width: 40%;
+    text-align: center;
+}
+
+.hero-text p{
+    width: 80%;
+}
+
+#misi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: antiquewhite;
+}
+
+#misi .misi-text{
+    width: 30%;
+    background-color: #18978F;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+#misi .misi-text p{
+    font-size: 12px;
+    padding: 20px;
+}
+
+#misi .misi-text button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 7px 12px;
+    color: antiquewhite;
+}
+
+#misi .misi-text button a{
+    color: black;
+    text-decoration: none;
+}
+
+#about-bullying{
+    height: 300px;
+    background-color: #18978F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#about-bullying .about-bullying-text{
+    width: 30%;
+}
+
+#about-bullying .about-bullying-text p{
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+}
+
+#about-bullying .about-bullying-text button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 7px 15px;
+    color: antiquewhite;
+}
+
+#about-bullying .about-bullying-text button a{
+    color: black;
+    text-decoration: none;
+}
+
+#fitur{
+    background-image: url("https://i.postimg.cc/sf453LBZ/Rectangle-51.png");
+    background-size: cover;
+    padding: 30px;
+}
+
+#fitur .fitur-text{
+    color: #224F34;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fitur .fitur-content{
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+.fitur-content .fitur-contents{
+    width: 200px;
+    background-color: #18978F;
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.fitur-content p{
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+}
+
+.fitur-content h4{
+    padding: 20px 0px 0px 0px;
+}
+
+.fitur-content button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 0;
+    padding: 7px 15px;
+    color: antiquewhite;
+}
+
+.fitur-content button a{
+    text-decoration: none;
+    color: black;
+}
+
+#feedback{
+    padding: 30px;
+}
+
+#feedback .feedback-text{
+    color: #224F34;
+    font-size: 20px;
+    text-align: center;
+}
+
+#feedback .feedback-comment{
+    display: flex;
+    justify-content: space-around;
+}
+
+#feedback .feedback-comment .feedback-comments{
+    width: 33%;
+    padding: 50px;
+    margin: 40px;
+    font-size: 12px;
+}
+
+#feedback .feedback-comment .feedback-comments h4{
+    padding: 10px;
+}
+
+#form{
+    padding: 30px;
+    background-image: url("https://i.postimg.cc/sf453LBZ/Rectangle-51.png");
+}
+
+#form .form-area{
+    width: 50%;
+    margin: auto;
+}
+
+#form .form-area form{
+    padding: 30px 0;
+}
+
+#form .form-area h3{
+    text-align: center;
+    color: #224F34;
+    font-size: 20px;
+}
+
+.form-area input{
+    width: 100%;
+    border: 0;
+    height: 18px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.form-area input:nth-child(10){
+    width: 5%;
+}
+
+.form-area form button{
+    display: inline-block;
+    color: antiquewhite;
+    padding: 7px;
+    border: 0;
+    width: 100%;
+    background-color: #54BAB9;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.form-area button:hover{
+    background-color: antiquewhite;
+    color: #54BAB9;
+}
+
+footer{
+    background-color: #18978F;
+    padding: 30px;
+    color: antiquewhite;
+    display: flex;
+}
+
+footer #social-media{
+    width: 33%;
+    text-align: center;
+}
+
+footer #social-media h4{
+    padding: 10px 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+footer ul li{
+    list-style-type: none;
+}
+
+#footers{
+    display: flex;
+    gap: 100px;
+}
+
+footer a{
+    color: antiquewhite;
+    font-size: 12px
+}
